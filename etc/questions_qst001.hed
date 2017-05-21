@@ -1,0 +1,1313 @@
+QS "C-manner_liquid" {*-l+*}
+QS "C-manner_trill" {*-r+*}
+QS "C-manner_lateral" {*-l+*}
+QS "C-position_back" {*-O+*,*-o+*,*-u+*}
+QS "C-manner_plosive" {*-b+*,*-d+*,*-g+*,*-k+*,*-p+*,*-t+*}
+QS "C-manner_nasal" {*-N+*,*-m+*,*-n+*,*-J+*}
+QS "C-glottal-stop" {*-pau_gs+*}
+QS "C-duration_short" {*-O+*,*-E+*,*-a+*,*-e+*,*-i+*,*-o+*,*-u+*}
+QS "C-place_velar" {*-N+*,*-g+*,*-k+*,*-w+*}
+QS "C-place_labiodental" {*-f+*,*-v+*}
+QS "C-manner_glide" {*-j+*,*-w+*}
+QS "C-vowel" {*-O+*,*-E+*,*-a+*,*-e+*,*-i+*,*-o+*,*-u+*}
+QS "C-place_post-alveolar" {*-dZ+*,*-tS+*}
+QS "C-manner_approximant" {*-j+*,*-l+*,*-w+*}
+QS "C-consonant" {*-r+*,*-dZ+*,*-N+*,*-tS+*,*-b+*,*-d+*,*-g+*,*-f+*,*-h+*,*-k+*,*-j+*,*-m+*,*-l+*,*-n+*,*-p+*,*-s+*,*-J+*,*-t+*,*-w+*,*-v+*,*-z+*}
+QS "C-height_high" {*-i+*,*-u+*}
+QS "C-class_consonantal" {*-r+*,*-dZ+*,*-N+*,*-tS+*,*-b+*,*-d+*,*-g+*,*-f+*,*-k+*,*-m+*,*-l+*,*-n+*,*-p+*,*-s+*,*-J+*,*-t+*,*-v+*,*-z+*}
+QS "C-position_front" {*-E+*,*-a+*,*-e+*,*-i+*}
+QS "C-closure" {*-pau_cl+*}
+QS "C-class_syllabic" {*-O+*,*-E+*,*-a+*,*-e+*,*-i+*,*-m+*,*-o+*,*-n+*,*-u+*}
+QS "C-place_alveolar" {*-r+*,*-dZ+*,*-tS+*,*-d+*,*-l+*,*-n+*,*-s+*,*-t+*,*-z+*}
+QS "C-pause" {*-pau+*}
+QS "C-height_low" {*-a+*}
+QS "C-place_palatal" {*-j+*,*-J+*}
+QS "C-manner_affricate" {*-dZ+*,*-tS+*}
+QS "C-place_labial" {*-w+*}
+QS "C-place_glottal" {*-h+*}
+QS "C-manner_strident" {*-tS+*,*-f+*,*-s+*,*-v+*,*-z+*}
+QS "C-place_bilabial" {*-b+*,*-m+*,*-p+*}
+QS "C-articulation_rounded" {*-O+*,*-o+*}
+QS "C-height_mid" {*-O+*,*-E+*,*-e+*,*-o+*}
+QS "C-voiced" {*-r+*,*-dZ+*,*-N+*,*-b+*,*-d+*,*-g+*,*-j+*,*-m+*,*-l+*,*-n+*,*-J+*,*-w+*,*-v+*,*-z+*}
+QS "C-manner_fricative" {*-f+*,*-h+*,*-s+*,*-v+*,*-z+*}
+QS "C-class_sonorant" {*-r+*,*-N+*,*-O+*,*-E+*,*-a+*,*-e+*,*-i+*,*-j+*,*-m+*,*-l+*,*-o+*,*-n+*,*-J+*,*-u+*,*-w+*}
+QS "C-pau_cl" {*-pau_cl+*}
+QS "C-pau_gs" {*-pau_gs+*}
+QS "C-pau" {*-pau+*}
+QS "C-r" {*-r+*}
+QS "C-dZ" {*-dZ+*}
+QS "C-N" {*-N+*}
+QS "C-O" {*-O+*}
+QS "C-E" {*-E+*}
+QS "C-tS" {*-tS+*}
+QS "C-a" {*-a+*}
+QS "C-b" {*-b+*}
+QS "C-e" {*-e+*}
+QS "C-d" {*-d+*}
+QS "C-g" {*-g+*}
+QS "C-f" {*-f+*}
+QS "C-i" {*-i+*}
+QS "C-h" {*-h+*}
+QS "C-k" {*-k+*}
+QS "C-j" {*-j+*}
+QS "C-m" {*-m+*}
+QS "C-l" {*-l+*}
+QS "C-o" {*-o+*}
+QS "C-n" {*-n+*}
+QS "C-p" {*-p+*}
+QS "C-s" {*-s+*}
+QS "C-J" {*-J+*}
+QS "C-u" {*-u+*}
+QS "C-t" {*-t+*}
+QS "C-w" {*-w+*}
+QS "C-v" {*-v+*}
+QS "C-z" {*-z+*}
+QS "LL-manner_liquid" {l^*}
+QS "LL-manner_trill" {r^*}
+QS "LL-manner_lateral" {l^*}
+QS "LL-position_back" {O^*,o^*,u^*}
+QS "LL-manner_plosive" {b^*,d^*,g^*,k^*,p^*,t^*}
+QS "LL-manner_nasal" {N^*,m^*,n^*,J^*}
+QS "LL-glottal-stop" {pau_gs^*}
+QS "LL-duration_short" {O^*,E^*,a^*,e^*,i^*,o^*,u^*}
+QS "LL-place_velar" {N^*,g^*,k^*,w^*}
+QS "LL-place_labiodental" {f^*,v^*}
+QS "LL-manner_glide" {j^*,w^*}
+QS "LL-vowel" {O^*,E^*,a^*,e^*,i^*,o^*,u^*}
+QS "LL-place_post-alveolar" {dZ^*,tS^*}
+QS "LL-manner_approximant" {j^*,l^*,w^*}
+QS "LL-consonant" {r^*,dZ^*,N^*,tS^*,b^*,d^*,g^*,f^*,h^*,k^*,j^*,m^*,l^*,n^*,p^*,s^*,J^*,t^*,w^*,v^*,z^*}
+QS "LL-height_high" {i^*,u^*}
+QS "LL-class_consonantal" {r^*,dZ^*,N^*,tS^*,b^*,d^*,g^*,f^*,k^*,m^*,l^*,n^*,p^*,s^*,J^*,t^*,v^*,z^*}
+QS "LL-position_front" {E^*,a^*,e^*,i^*}
+QS "LL-closure" {pau_cl^*}
+QS "LL-class_syllabic" {O^*,E^*,a^*,e^*,i^*,m^*,o^*,n^*,u^*}
+QS "LL-place_alveolar" {r^*,dZ^*,tS^*,d^*,l^*,n^*,s^*,t^*,z^*}
+QS "LL-pause" {pau^*}
+QS "LL-height_low" {a^*}
+QS "LL-place_palatal" {j^*,J^*}
+QS "LL-manner_affricate" {dZ^*,tS^*}
+QS "LL-place_labial" {w^*}
+QS "LL-place_glottal" {h^*}
+QS "LL-manner_strident" {tS^*,f^*,s^*,v^*,z^*}
+QS "LL-place_bilabial" {b^*,m^*,p^*}
+QS "LL-articulation_rounded" {O^*,o^*}
+QS "LL-height_mid" {O^*,E^*,e^*,o^*}
+QS "LL-voiced" {r^*,dZ^*,N^*,b^*,d^*,g^*,j^*,m^*,l^*,n^*,J^*,w^*,v^*,z^*}
+QS "LL-manner_fricative" {f^*,h^*,s^*,v^*,z^*}
+QS "LL-class_sonorant" {r^*,N^*,O^*,E^*,a^*,e^*,i^*,j^*,m^*,l^*,o^*,n^*,J^*,u^*,w^*}
+QS "LL-pau_cl" {pau_cl^*}
+QS "LL-pau_gs" {pau_gs^*}
+QS "LL-pau" {pau^*}
+QS "LL-r" {r^*}
+QS "LL-dZ" {dZ^*}
+QS "LL-N" {N^*}
+QS "LL-O" {O^*}
+QS "LL-E" {E^*}
+QS "LL-tS" {tS^*}
+QS "LL-a" {a^*}
+QS "LL-b" {b^*}
+QS "LL-e" {e^*}
+QS "LL-d" {d^*}
+QS "LL-g" {g^*}
+QS "LL-f" {f^*}
+QS "LL-i" {i^*}
+QS "LL-h" {h^*}
+QS "LL-k" {k^*}
+QS "LL-j" {j^*}
+QS "LL-m" {m^*}
+QS "LL-l" {l^*}
+QS "LL-o" {o^*}
+QS "LL-n" {n^*}
+QS "LL-p" {p^*}
+QS "LL-s" {s^*}
+QS "LL-J" {J^*}
+QS "LL-u" {u^*}
+QS "LL-t" {t^*}
+QS "LL-w" {w^*}
+QS "LL-v" {v^*}
+QS "LL-z" {z^*}
+QS "R-manner_liquid" {*+l=*}
+QS "R-manner_trill" {*+r=*}
+QS "R-manner_lateral" {*+l=*}
+QS "R-position_back" {*+O=*,*+o=*,*+u=*}
+QS "R-manner_plosive" {*+b=*,*+d=*,*+g=*,*+k=*,*+p=*,*+t=*}
+QS "R-manner_nasal" {*+N=*,*+m=*,*+n=*,*+J=*}
+QS "R-glottal-stop" {*+pau_gs=*}
+QS "R-duration_short" {*+O=*,*+E=*,*+a=*,*+e=*,*+i=*,*+o=*,*+u=*}
+QS "R-place_velar" {*+N=*,*+g=*,*+k=*,*+w=*}
+QS "R-place_labiodental" {*+f=*,*+v=*}
+QS "R-manner_glide" {*+j=*,*+w=*}
+QS "R-vowel" {*+O=*,*+E=*,*+a=*,*+e=*,*+i=*,*+o=*,*+u=*}
+QS "R-place_post-alveolar" {*+dZ=*,*+tS=*}
+QS "R-manner_approximant" {*+j=*,*+l=*,*+w=*}
+QS "R-consonant" {*+r=*,*+dZ=*,*+N=*,*+tS=*,*+b=*,*+d=*,*+g=*,*+f=*,*+h=*,*+k=*,*+j=*,*+m=*,*+l=*,*+n=*,*+p=*,*+s=*,*+J=*,*+t=*,*+w=*,*+v=*,*+z=*}
+QS "R-height_high" {*+i=*,*+u=*}
+QS "R-class_consonantal" {*+r=*,*+dZ=*,*+N=*,*+tS=*,*+b=*,*+d=*,*+g=*,*+f=*,*+k=*,*+m=*,*+l=*,*+n=*,*+p=*,*+s=*,*+J=*,*+t=*,*+v=*,*+z=*}
+QS "R-position_front" {*+E=*,*+a=*,*+e=*,*+i=*}
+QS "R-closure" {*+pau_cl=*}
+QS "R-class_syllabic" {*+O=*,*+E=*,*+a=*,*+e=*,*+i=*,*+m=*,*+o=*,*+n=*,*+u=*}
+QS "R-place_alveolar" {*+r=*,*+dZ=*,*+tS=*,*+d=*,*+l=*,*+n=*,*+s=*,*+t=*,*+z=*}
+QS "R-pause" {*+pau=*}
+QS "R-height_low" {*+a=*}
+QS "R-place_palatal" {*+j=*,*+J=*}
+QS "R-manner_affricate" {*+dZ=*,*+tS=*}
+QS "R-place_labial" {*+w=*}
+QS "R-place_glottal" {*+h=*}
+QS "R-manner_strident" {*+tS=*,*+f=*,*+s=*,*+v=*,*+z=*}
+QS "R-place_bilabial" {*+b=*,*+m=*,*+p=*}
+QS "R-articulation_rounded" {*+O=*,*+o=*}
+QS "R-height_mid" {*+O=*,*+E=*,*+e=*,*+o=*}
+QS "R-voiced" {*+r=*,*+dZ=*,*+N=*,*+b=*,*+d=*,*+g=*,*+j=*,*+m=*,*+l=*,*+n=*,*+J=*,*+w=*,*+v=*,*+z=*}
+QS "R-manner_fricative" {*+f=*,*+h=*,*+s=*,*+v=*,*+z=*}
+QS "R-class_sonorant" {*+r=*,*+N=*,*+O=*,*+E=*,*+a=*,*+e=*,*+i=*,*+j=*,*+m=*,*+l=*,*+o=*,*+n=*,*+J=*,*+u=*,*+w=*}
+QS "R-pau_cl" {*+pau_cl=*}
+QS "R-pau_gs" {*+pau_gs=*}
+QS "R-pau" {*+pau=*}
+QS "R-r" {*+r=*}
+QS "R-dZ" {*+dZ=*}
+QS "R-N" {*+N=*}
+QS "R-O" {*+O=*}
+QS "R-E" {*+E=*}
+QS "R-tS" {*+tS=*}
+QS "R-a" {*+a=*}
+QS "R-b" {*+b=*}
+QS "R-e" {*+e=*}
+QS "R-d" {*+d=*}
+QS "R-g" {*+g=*}
+QS "R-f" {*+f=*}
+QS "R-i" {*+i=*}
+QS "R-h" {*+h=*}
+QS "R-k" {*+k=*}
+QS "R-j" {*+j=*}
+QS "R-m" {*+m=*}
+QS "R-l" {*+l=*}
+QS "R-o" {*+o=*}
+QS "R-n" {*+n=*}
+QS "R-p" {*+p=*}
+QS "R-s" {*+s=*}
+QS "R-J" {*+J=*}
+QS "R-u" {*+u=*}
+QS "R-t" {*+t=*}
+QS "R-w" {*+w=*}
+QS "R-v" {*+v=*}
+QS "R-z" {*+z=*}
+QS "L-manner_liquid" {*^l-*}
+QS "L-manner_trill" {*^r-*}
+QS "L-manner_lateral" {*^l-*}
+QS "L-position_back" {*^O-*,*^o-*,*^u-*}
+QS "L-manner_plosive" {*^b-*,*^d-*,*^g-*,*^k-*,*^p-*,*^t-*}
+QS "L-manner_nasal" {*^N-*,*^m-*,*^n-*,*^J-*}
+QS "L-glottal-stop" {*^pau_gs-*}
+QS "L-duration_short" {*^O-*,*^E-*,*^a-*,*^e-*,*^i-*,*^o-*,*^u-*}
+QS "L-place_velar" {*^N-*,*^g-*,*^k-*,*^w-*}
+QS "L-place_labiodental" {*^f-*,*^v-*}
+QS "L-manner_glide" {*^j-*,*^w-*}
+QS "L-vowel" {*^O-*,*^E-*,*^a-*,*^e-*,*^i-*,*^o-*,*^u-*}
+QS "L-place_post-alveolar" {*^dZ-*,*^tS-*}
+QS "L-manner_approximant" {*^j-*,*^l-*,*^w-*}
+QS "L-consonant" {*^r-*,*^dZ-*,*^N-*,*^tS-*,*^b-*,*^d-*,*^g-*,*^f-*,*^h-*,*^k-*,*^j-*,*^m-*,*^l-*,*^n-*,*^p-*,*^s-*,*^J-*,*^t-*,*^w-*,*^v-*,*^z-*}
+QS "L-height_high" {*^i-*,*^u-*}
+QS "L-class_consonantal" {*^r-*,*^dZ-*,*^N-*,*^tS-*,*^b-*,*^d-*,*^g-*,*^f-*,*^k-*,*^m-*,*^l-*,*^n-*,*^p-*,*^s-*,*^J-*,*^t-*,*^v-*,*^z-*}
+QS "L-position_front" {*^E-*,*^a-*,*^e-*,*^i-*}
+QS "L-closure" {*^pau_cl-*}
+QS "L-class_syllabic" {*^O-*,*^E-*,*^a-*,*^e-*,*^i-*,*^m-*,*^o-*,*^n-*,*^u-*}
+QS "L-place_alveolar" {*^r-*,*^dZ-*,*^tS-*,*^d-*,*^l-*,*^n-*,*^s-*,*^t-*,*^z-*}
+QS "L-pause" {*^pau-*}
+QS "L-height_low" {*^a-*}
+QS "L-place_palatal" {*^j-*,*^J-*}
+QS "L-manner_affricate" {*^dZ-*,*^tS-*}
+QS "L-place_labial" {*^w-*}
+QS "L-place_glottal" {*^h-*}
+QS "L-manner_strident" {*^tS-*,*^f-*,*^s-*,*^v-*,*^z-*}
+QS "L-place_bilabial" {*^b-*,*^m-*,*^p-*}
+QS "L-articulation_rounded" {*^O-*,*^o-*}
+QS "L-height_mid" {*^O-*,*^E-*,*^e-*,*^o-*}
+QS "L-voiced" {*^r-*,*^dZ-*,*^N-*,*^b-*,*^d-*,*^g-*,*^j-*,*^m-*,*^l-*,*^n-*,*^J-*,*^w-*,*^v-*,*^z-*}
+QS "L-manner_fricative" {*^f-*,*^h-*,*^s-*,*^v-*,*^z-*}
+QS "L-class_sonorant" {*^r-*,*^N-*,*^O-*,*^E-*,*^a-*,*^e-*,*^i-*,*^j-*,*^m-*,*^l-*,*^o-*,*^n-*,*^J-*,*^u-*,*^w-*}
+QS "L-pau_cl" {*^pau_cl-*}
+QS "L-pau_gs" {*^pau_gs-*}
+QS "L-pau" {*^pau-*}
+QS "L-r" {*^r-*}
+QS "L-dZ" {*^dZ-*}
+QS "L-N" {*^N-*}
+QS "L-O" {*^O-*}
+QS "L-E" {*^E-*}
+QS "L-tS" {*^tS-*}
+QS "L-a" {*^a-*}
+QS "L-b" {*^b-*}
+QS "L-e" {*^e-*}
+QS "L-d" {*^d-*}
+QS "L-g" {*^g-*}
+QS "L-f" {*^f-*}
+QS "L-i" {*^i-*}
+QS "L-h" {*^h-*}
+QS "L-k" {*^k-*}
+QS "L-j" {*^j-*}
+QS "L-m" {*^m-*}
+QS "L-l" {*^l-*}
+QS "L-o" {*^o-*}
+QS "L-n" {*^n-*}
+QS "L-p" {*^p-*}
+QS "L-s" {*^s-*}
+QS "L-J" {*^J-*}
+QS "L-u" {*^u-*}
+QS "L-t" {*^t-*}
+QS "L-w" {*^w-*}
+QS "L-v" {*^v-*}
+QS "L-z" {*^z-*}
+QS "RR-manner_liquid" {*=l@*}
+QS "RR-manner_trill" {*=r@*}
+QS "RR-manner_lateral" {*=l@*}
+QS "RR-position_back" {*=O@*,*=o@*,*=u@*}
+QS "RR-manner_plosive" {*=b@*,*=d@*,*=g@*,*=k@*,*=p@*,*=t@*}
+QS "RR-manner_nasal" {*=N@*,*=m@*,*=n@*,*=J@*}
+QS "RR-glottal-stop" {*=pau_gs@*}
+QS "RR-duration_short" {*=O@*,*=E@*,*=a@*,*=e@*,*=i@*,*=o@*,*=u@*}
+QS "RR-place_velar" {*=N@*,*=g@*,*=k@*,*=w@*}
+QS "RR-place_labiodental" {*=f@*,*=v@*}
+QS "RR-manner_glide" {*=j@*,*=w@*}
+QS "RR-vowel" {*=O@*,*=E@*,*=a@*,*=e@*,*=i@*,*=o@*,*=u@*}
+QS "RR-place_post-alveolar" {*=dZ@*,*=tS@*}
+QS "RR-manner_approximant" {*=j@*,*=l@*,*=w@*}
+QS "RR-consonant" {*=r@*,*=dZ@*,*=N@*,*=tS@*,*=b@*,*=d@*,*=g@*,*=f@*,*=h@*,*=k@*,*=j@*,*=m@*,*=l@*,*=n@*,*=p@*,*=s@*,*=J@*,*=t@*,*=w@*,*=v@*,*=z@*}
+QS "RR-height_high" {*=i@*,*=u@*}
+QS "RR-class_consonantal" {*=r@*,*=dZ@*,*=N@*,*=tS@*,*=b@*,*=d@*,*=g@*,*=f@*,*=k@*,*=m@*,*=l@*,*=n@*,*=p@*,*=s@*,*=J@*,*=t@*,*=v@*,*=z@*}
+QS "RR-position_front" {*=E@*,*=a@*,*=e@*,*=i@*}
+QS "RR-closure" {*=pau_cl@*}
+QS "RR-class_syllabic" {*=O@*,*=E@*,*=a@*,*=e@*,*=i@*,*=m@*,*=o@*,*=n@*,*=u@*}
+QS "RR-place_alveolar" {*=r@*,*=dZ@*,*=tS@*,*=d@*,*=l@*,*=n@*,*=s@*,*=t@*,*=z@*}
+QS "RR-pause" {*=pau@*}
+QS "RR-height_low" {*=a@*}
+QS "RR-place_palatal" {*=j@*,*=J@*}
+QS "RR-manner_affricate" {*=dZ@*,*=tS@*}
+QS "RR-place_labial" {*=w@*}
+QS "RR-place_glottal" {*=h@*}
+QS "RR-manner_strident" {*=tS@*,*=f@*,*=s@*,*=v@*,*=z@*}
+QS "RR-place_bilabial" {*=b@*,*=m@*,*=p@*}
+QS "RR-articulation_rounded" {*=O@*,*=o@*}
+QS "RR-height_mid" {*=O@*,*=E@*,*=e@*,*=o@*}
+QS "RR-voiced" {*=r@*,*=dZ@*,*=N@*,*=b@*,*=d@*,*=g@*,*=j@*,*=m@*,*=l@*,*=n@*,*=J@*,*=w@*,*=v@*,*=z@*}
+QS "RR-manner_fricative" {*=f@*,*=h@*,*=s@*,*=v@*,*=z@*}
+QS "RR-class_sonorant" {*=r@*,*=N@*,*=O@*,*=E@*,*=a@*,*=e@*,*=i@*,*=j@*,*=m@*,*=l@*,*=o@*,*=n@*,*=J@*,*=u@*,*=w@*}
+QS "RR-pau_cl" {*=pau_cl@*}
+QS "RR-pau_gs" {*=pau_gs@*}
+QS "RR-pau" {*=pau@*}
+QS "RR-r" {*=r@*}
+QS "RR-dZ" {*=dZ@*}
+QS "RR-N" {*=N@*}
+QS "RR-O" {*=O@*}
+QS "RR-E" {*=E@*}
+QS "RR-tS" {*=tS@*}
+QS "RR-a" {*=a@*}
+QS "RR-b" {*=b@*}
+QS "RR-e" {*=e@*}
+QS "RR-d" {*=d@*}
+QS "RR-g" {*=g@*}
+QS "RR-f" {*=f@*}
+QS "RR-i" {*=i@*}
+QS "RR-h" {*=h@*}
+QS "RR-k" {*=k@*}
+QS "RR-j" {*=j@*}
+QS "RR-m" {*=m@*}
+QS "RR-l" {*=l@*}
+QS "RR-o" {*=o@*}
+QS "RR-n" {*=n@*}
+QS "RR-p" {*=p@*}
+QS "RR-s" {*=s@*}
+QS "RR-J" {*=J@*}
+QS "RR-u" {*=u@*}
+QS "RR-t" {*=t@*}
+QS "RR-w" {*=w@*}
+QS "RR-v" {*=v@*}
+QS "RR-z" {*=z@*}
+
+QS "C-Syl_class_syllabic" {*|O/C:*,*|E/C:*,*|a/C:*,*|e/C:*,*|i/C:*,*|o/C:*,*|u/C:*}
+QS "C-Syl_height_low" {*|a/C:*}
+QS "C-Syl_position_back" {*|O/C:*,*|o/C:*,*|u/C:*}
+QS "C-Syl_articulation_rounded" {*|O/C:*,*|o/C:*}
+QS "C-Syl_height_mid" {*|O/C:*,*|E/C:*,*|e/C:*,*|o/C:*}
+QS "C-Syl_duration_short" {*|O/C:*,*|E/C:*,*|a/C:*,*|e/C:*,*|i/C:*,*|o/C:*,*|u/C:*}
+QS "C-Syl_vowel" {*|O/C:*,*|E/C:*,*|a/C:*,*|e/C:*,*|i/C:*,*|o/C:*,*|u/C:*}
+QS "C-Syl_class_sonorant" {*|O/C:*,*|E/C:*,*|a/C:*,*|e/C:*,*|i/C:*,*|o/C:*,*|u/C:*}
+QS "C-Syl_height_high" {*|i/C:*,*|u/C:*}
+QS "C-Syl_position_front" {*|E/C:*,*|a/C:*,*|e/C:*,*|i/C:*}
+QS "C-Syl_O" {*|O/C:*}
+QS "C-Syl_E" {*|E/C:*}
+QS "C-Syl_a" {*|a/C:*}
+QS "C-Syl_e" {*|e/C:*}
+QS "C-Syl_i" {*|i/C:*}
+QS "C-Syl_o" {*|o/C:*}
+QS "C-Syl_u" {*|u/C:*}
+
+QS "C-Syl_Vowel==x"			{*|x/C:*}
+QS "C-Syl_Vowel==no"		{*|novowel/C:*}
+
+QS "Seg_Fw==x"	{*@x_*}
+QS "Seg_Fw==1"	{*@1_*}
+QS "Seg_Fw==2"	{*@2_*}
+QS "Seg_Fw==3"	{*@3_*}
+QS "Seg_Fw==4"	{*@4_*}
+QS "Seg_Fw==5"	{*@5_*}
+QS "Seg_Fw==6"	{*@6_*}
+QS "Seg_Fw==7"	{*@7_*}
+
+QS "Seg_Fw<=1"	{*@x_*,*@1_*}
+QS "Seg_Fw<=2"	{*@x_*,*@1_*,*@2_*}
+QS "Seg_Fw<=3"	{*@x_*,*@1_*,*@2_*,*@3_*}
+QS "Seg_Fw<=4"	{*@x_*,*@1_*,*@2_*,*@3_*,*@4_*}
+QS "Seg_Fw<=5"	{*@x_*,*@1_*,*@2_*,*@3_*,*@4_*,*@5_*}
+QS "Seg_Fw<=6"	{*@x_*,*@1_*,*@2_*,*@3_*,*@4_*,*@5_*,*@6_*}
+QS "Seg_Fw<=7"	{*@x_*,*@1_*,*@2_*,*@3_*,*@4_*,*@5_*,*@6_*,*@7_*}
+
+
+QS "Seg_Bw==x"	{*_x/A:*}
+QS "Seg_Bw==1"	{*_1/A:*}
+QS "Seg_Bw==2"	{*_2/A:*}
+QS "Seg_Bw==3"	{*_3/A:*}
+QS "Seg_Bw==4"	{*_4/A:*}
+QS "Seg_Bw==5"	{*_5/A:*}
+QS "Seg_Bw==6"	{*_6/A:*}
+QS "Seg_Bw==7"	{*_7/A:*}
+
+QS "Seg_Bw<=0"	{*_x/A:*,*_0/A:*}
+QS "Seg_Bw<=1"	{*_x/A:*,*_0/A:*,*_1/A:*}
+QS "Seg_Bw<=2"	{*_x/A:*,*_0/A:*,*_1/A:*,*_2/A:*}
+QS "Seg_Bw<=3"	{*_x/A:*,*_0/A:*,*_1/A:*,*_2/A:*,*_3/A:*}
+QS "Seg_Bw<=4"	{*_x/A:*,*_0/A:*,*_1/A:*,*_2/A:*,*_3/A:*,*_4/A:*}
+QS "Seg_Bw<=5"	{*_x/A:*,*_0/A:*,*_1/A:*,*_2/A:*,*_3/A:*,*_4/A:*,*_5/A:*}
+QS "Seg_Bw<=6"	{*_x/A:*,*_0/A:*,*_1/A:*,*_2/A:*,*_3/A:*,*_4/A:*,*_5/A:*,*_6/A:*}
+QS "Seg_Bw<=7"	{*_x/A:*,*_0/A:*,*_1/A:*,*_2/A:*,*_3/A:*,*_4/A:*,*_5/A:*,*_6/A:*,*_7/A:*}
+
+
+
+QS "L-Syl_Stress==1"		{*/A:1_*}
+QS "L-Syl_Stress==0"		{*/A:0_*}
+
+
+
+QS "L-Syl_Accent==1"		{*_1_*}
+QS "L-Syl_Accent==0"		{*_0_*}
+
+
+
+QS "L-Syl_Num-Segs==0"	{*_0/B:*}
+QS "L-Syl_Num-Segs==1"	{*_1/B:*}
+QS "L-Syl_Num-Segs==2"	{*_2/B:*}
+QS "L-Syl_Num-Segs==3"	{*_3/B:*}
+QS "L-Syl_Num-Segs==4"	{*_4/B:*}
+QS "L-Syl_Num-Segs==5"	{*_5/B:*}
+QS "L-Syl_Num-Segs==6"	{*_6/B:*}
+QS "L-Syl_Num-Segs==7"	{*_7/B:*}
+
+QS "L-Syl_Num-Segs<=1"	{*_0/B:*,*_1/B:*}
+QS "L-Syl_Num-Segs<=2"	{*_0/B:*,*_1/B:*,*_2/B:*}
+QS "L-Syl_Num-Segs<=3"	{*_0/B:*,*_1/B:*,*_2/B:*,*_3/B:*}
+QS "L-Syl_Num-Segs<=4"	{*_0/B:*,*_1/B:*,*_2/B:*,*_3/B:*,*_4/B:*}
+QS "L-Syl_Num-Segs<=5"	{*_0/B:*,*_1/B:*,*_2/B:*,*_3/B:*,*_4/B:*,*_5/B:*}
+QS "L-Syl_Num-Segs<=6"	{*_0/B:*,*_1/B:*,*_2/B:*,*_3/B:*,*_4/B:*,*_5/B:*,*_6/B:*}
+QS "L-Syl_Num-Segs<=7"	{*_0/B:*,*_1/B:*,*_2/B:*,*_3/B:*,*_4/B:*,*_5/B:*,*_6/B:*,*_7/B:*}
+
+
+
+QS "C-Syl_Stress==1"		{*/B:1-*}
+QS "C-Syl_Stress==0"		{*/B:0-*}
+QS "C-Syl_Stress==x"		{*/B:x-*}
+
+
+
+QS "C-Syl_Accent==1"		{*-1-*}
+QS "C-Syl_Accent==0"		{*-0-*}
+QS "C-Syl_Accent==x"		{*-x-*}
+
+
+
+QS "C-Syl_Num-Segs==x"	{*-x@*}
+QS "C-Syl_Num-Segs==1"	{*-1@*}
+QS "C-Syl_Num-Segs==2"	{*-2@*}
+QS "C-Syl_Num-Segs==3"	{*-3@*}
+QS "C-Syl_Num-Segs==4"	{*-4@*}
+QS "C-Syl_Num-Segs==5"	{*-5@*}
+QS "C-Syl_Num-Segs==6"	{*-6@*}
+QS "C-Syl_Num-Segs==7"	{*-7@*}
+
+QS "C-Syl_Num-Segs<=1"	{*-x@*,*-1@*}
+QS "C-Syl_Num-Segs<=2"	{*-x@*,*-1@*,*-2@*}
+QS "C-Syl_Num-Segs<=3"	{*-x@*,*-1@*,*-2@*,*-3@*}
+QS "C-Syl_Num-Segs<=4"	{*-x@*,*-1@*,*-2@*,*-3@*,*-4@*}
+QS "C-Syl_Num-Segs<=5"	{*-x@*,*-1@*,*-2@*,*-3@*,*-4@*,*-5@*}
+QS "C-Syl_Num-Segs<=6"	{*-x@*,*-1@*,*-2@*,*-3@*,*-4@*,*-5@*,*-6@*}
+QS "C-Syl_Num-Segs<=7"	{*-x@*,*-1@*,*-2@*,*-3@*,*-4@*,*-5@*,*-6@*,*-7@*}
+
+
+
+QS "Pos_C-Syl_in_C-Word(Fw)==x"	{*@x-*}
+QS "Pos_C-Syl_in_C-Word(Fw)==1"	{*@1-*}
+QS "Pos_C-Syl_in_C-Word(Fw)==2"	{*@2-*}
+QS "Pos_C-Syl_in_C-Word(Fw)==3"	{*@3-*}
+QS "Pos_C-Syl_in_C-Word(Fw)==4"	{*@4-*}
+QS "Pos_C-Syl_in_C-Word(Fw)==5"	{*@5-*}
+QS "Pos_C-Syl_in_C-Word(Fw)==6"	{*@6-*}
+QS "Pos_C-Syl_in_C-Word(Fw)==7"	{*@7-*}
+
+QS "Pos_C-Syl_in_C-Word(Fw)<=1"	{*@x-*,*@1-*}
+QS "Pos_C-Syl_in_C-Word(Fw)<=2"	{*@x-*,*@1-*,*@2-*}
+QS "Pos_C-Syl_in_C-Word(Fw)<=3"	{*@x-*,*@1-*,*@2-*,*@3-*}
+QS "Pos_C-Syl_in_C-Word(Fw)<=4"	{*@x-*,*@1-*,*@2-*,*@3-*,*@4-*}
+QS "Pos_C-Syl_in_C-Word(Fw)<=5"	{*@x-*,*@1-*,*@2-*,*@3-*,*@4-*,*@5-*}
+QS "Pos_C-Syl_in_C-Word(Fw)<=6"	{*@x-*,*@1-*,*@2-*,*@3-*,*@4-*,*@5-*,*@6-*}
+QS "Pos_C-Syl_in_C-Word(Fw)<=7"	{*@x-*,*@1-*,*@2-*,*@3-*,*@4-*,*@5-*,*@6-*,*@7-*}
+
+
+
+QS "Pos_C-Syl_in_C-Word(Bw)==x"	{*-x&*}
+QS "Pos_C-Syl_in_C-Word(Bw)==1"	{*-1&*}
+QS "Pos_C-Syl_in_C-Word(Bw)==2"	{*-2&*}
+QS "Pos_C-Syl_in_C-Word(Bw)==3"	{*-3&*}
+QS "Pos_C-Syl_in_C-Word(Bw)==4"	{*-4&*}
+QS "Pos_C-Syl_in_C-Word(Bw)==5"	{*-5&*}
+QS "Pos_C-Syl_in_C-Word(Bw)==6"	{*-6&*}
+QS "Pos_C-Syl_in_C-Word(Bw)==7"	{*-7&*}
+
+QS "Pos_C-Syl_in_C-Word(Bw)<=1"	{*-x&*,*-1&*}
+QS "Pos_C-Syl_in_C-Word(Bw)<=2"	{*-x&*,*-1&*,*-2&*}
+QS "Pos_C-Syl_in_C-Word(Bw)<=3"	{*-x&*,*-1&*,*-2&*,*-3&*}
+QS "Pos_C-Syl_in_C-Word(Bw)<=4"	{*-x&*,*-1&*,*-2&*,*-3&*,*-4&*}
+QS "Pos_C-Syl_in_C-Word(Bw)<=5"	{*-x&*,*-1&*,*-2&*,*-3&*,*-4&*,*-5&*}
+QS "Pos_C-Syl_in_C-Word(Bw)<=6"	{*-x&*,*-1&*,*-2&*,*-3&*,*-4&*,*-5&*,*-6&*}
+QS "Pos_C-Syl_in_C-Word(Bw)<=7"	{*-x&*,*-1&*,*-2&*,*-3&*,*-4&*,*-5&*,*-6&*,*-7&*}
+
+
+
+QS "Pos_C-Syl_in_C-Phrase(Fw)==x"	{*&x-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==1"	{*&1-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==2"	{*&2-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==3"	{*&3-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==4"	{*&4-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==5"	{*&5-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==6"	{*&6-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==7"	{*&7-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==8"	{*&8-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==9"	{*&9-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==10"	{*&10-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==11"	{*&11-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==12"	{*&12-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==13"	{*&13-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==14"	{*&14-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==15"	{*&15-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==16"	{*&16-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==17"	{*&17-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==18"	{*&18-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==19"	{*&19-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)==20"	{*&20-*}
+
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=1"	{*&x-*,*&0-*,*&1-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=2"	{*&x-*,*&0-*,*&1-*,*&2-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=3"	{*&x-*,*&0-*,*&1-*,*&2-*,*&3-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=4"	{*&x-*,*&0-*,*&1-*,*&2-*,*&3-*,*&4-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=5"	{*&x-*,*&0-*,*&1-*,*&2-*,*&3-*,*&4-*,*&5-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=6"	{*&x-*,*&0-*,*&1-*,*&2-*,*&3-*,*&4-*,*&5-*,*&6-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=7"	{*&x-*,*&0-*,*&1-*,*&2-*,*&3-*,*&4-*,*&5-*,*&6-*,*&7-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=8"	{*&x-*,*&0-*,*&1-*,*&2-*,*&3-*,*&4-*,*&5-*,*&6-*,*&7-*,*&8-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=9"	{*&?-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=10"	{*&?-*,*&10-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=11"	{*&?-*,*&10-*,*&11-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=12"	{*&?-*,*&10-*,*&11-*,*&12-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=13"	{*&?-*,*&10-*,*&11-*,*&12-*,*&13-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=14"	{*&?-*,*&10-*,*&11-*,*&12-*,*&13-*,*&14-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=15"	{*&?-*,*&10-*,*&11-*,*&12-*,*&13-*,*&14-*,*&15-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=16"	{*&?-*,*&10-*,*&11-*,*&12-*,*&13-*,*&14-*,*&15-*,*&16-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=17"	{*&?-*,*&10-*,*&11-*,*&12-*,*&13-*,*&14-*,*&15-*,*&16-*,*&17-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=18"	{*&?-*,*&10-*,*&11-*,*&12-*,*&13-*,*&14-*,*&15-*,*&16-*,*&17-*,*&18-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=19"	{*&?-*,*&1?-*}
+QS "Pos_C-Syl_in_C-Phrase(Fw)<=20"	{*&?-*,*&1?-*,*&20-*}
+
+
+
+QS "Pos_C-Syl_in_C-Phrase(Bw)==x"	{*-x#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==1"	{*-1#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==2"	{*-2#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==3"	{*-3#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==4"	{*-4#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==5"	{*-5#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==6"	{*-6#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==7"	{*-7#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==8"	{*-8#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==9"	{*-9#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==10"	{*-10#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==11"	{*-11#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==12"	{*-12#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==13"	{*-13#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==14"	{*-14#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==15"	{*-15#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==16"	{*-16#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==17"	{*-17#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==18"	{*-18#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==19"	{*-19#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)==20"	{*-20#*}
+
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=1"	{*-x#*,*-1#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=2"	{*-x#*,*-1#*,*-2#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=3"	{*-x#*,*-1#*,*-2#*,*-3#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=4"	{*-x#*,*-1#*,*-2#*,*-3#*,*-4#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=5"	{*-x#*,*-1#*,*-2#*,*-3#*,*-4#*,*-5#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=6"	{*-x#*,*-1#*,*-2#*,*-3#*,*-4#*,*-5#*,*-6#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=7"	{*-x#*,*-1#*,*-2#*,*-3#*,*-4#*,*-5#*,*-6#*,*-7#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=8"	{*-x#*,*-1#*,*-2#*,*-3#*,*-4#*,*-5#*,*-6#*,*-7#*,*-8#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=9"	{*-?#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=10"	{*-?#*,*-10#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=11"	{*-?#*,*-10#*,*-11#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=12"	{*-?#*,*-10#*,*-11#*,*-12#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=13"	{*-?#*,*-10#*,*-11#*,*-12#*,*-13#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=14"	{*-?#*,*-10#*,*-11#*,*-12#*,*-13#*,*-14#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=15"	{*-?#*,*-10#*,*-11#*,*-12#*,*-13#*,*-14#*,*-15#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=16"	{*-?#*,*-10#*,*-11#*,*-12#*,*-13#*,*-14#*,*-15#*,*-16#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=17"	{*-?#*,*-10#*,*-11#*,*-12#*,*-13#*,*-14#*,*-15#*,*-16#*,*-17#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=18"	{*-?#*,*-10#*,*-11#*,*-12#*,*-13#*,*-14#*,*-15#*,*-16#*,*-17#*,*-18#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=19"	{*-?#*,*-1?#*}
+QS "Pos_C-Syl_in_C-Phrase(Bw)<=20"	{*-?#*,*-1?#*,*-20#*}
+
+
+
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==x"	{*#x-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==1"	{*#1-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==2"	{*#2-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==3"	{*#3-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==4"	{*#4-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==5"	{*#5-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==6"	{*#6-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==7"	{*#7-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==8"	{*#8-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==9"	{*#9-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==10"	{*#10-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==11"	{*#11-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase==12"	{*#12-*}
+
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=1"	{*#x-*,*#1-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=2"	{*#x-*,*#1-*,*#2-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=3"	{*#x-*,*#1-*,*#2-*,*#3-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=4"	{*#x-*,*#1-*,*#2-*,*#3-*,*#4-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=5"	{*#x-*,*#1-*,*#2-*,*#3-*,*#4-*,*#5-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=6"	{*#x-*,*#1-*,*#2-*,*#3-*,*#4-*,*#5-*,*#6-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=7"	{*#x-*,*#1-*,*#2-*,*#3-*,*#4-*,*#5-*,*#6-*,*#7-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=8"	{*#x-*,*#1-*,*#2-*,*#3-*,*#4-*,*#5-*,*#6-*,*#7-*,*#8-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=9"	{*#?-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=10"	{*#?-*,*#10-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=11"	{*#?-*,*#10-*,*#11-*}
+QS "Num-StressedSyl_before_C-Syl_in_C-Phrase<=12"	{*#?-*,*#10-*,*#11-*,*#12-*}
+
+
+
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==x"		{*-x$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==1"		{*-1$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==2"		{*-2$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==3"		{*-3$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==4"		{*-4$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==5"		{*-5$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==6"		{*-6$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==7"		{*-7$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==8"		{*-8$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==9"		{*-9$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==10"	{*-10$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==11"	{*-11$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase==12"	{*-12$*}
+
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=1"		{*-x$*,*-1$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=2"		{*-x$*,*-1$*,*-2$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=3"		{*-x$*,*-1$*,*-2$*,*-3$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=4"		{*-x$*,*-1$*,*-2$*,*-3$*,*-4$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=5"		{*-x$*,*-1$*,*-2$*,*-3$*,*-4$*,*-5$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=6"		{*-x$*,*-1$*,*-2$*,*-3$*,*-4$*,*-5$*,*-6$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=7"		{*-x$*,*-1$*,*-2$*,*-3$*,*-4$*,*-5$*,*-6$*,*-7$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=8"		{*-x$*,*-1$*,*-2$*,*-3$*,*-4$*,*-5$*,*-6$*,*-7$*,*-8$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=9"		{*-?$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=10"	{*-?$*,*-10$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=11"	{*-?$*,*-10$*,*-11$*}
+QS "Num-StressedSyl_after_C-Syl_in_C-Phrase<=12"	{*-?$*,*-10$*,*-11$*,*-12$*}
+
+
+
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase==x"	{*$x-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase==1"	{*$1-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase==2"	{*$2-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase==3"	{*$3-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase==4"	{*$4-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase==5"	{*$5-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase==6"	{*$6-*}
+
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase<=1"	{*$x-*,*$1-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase<=2"	{*$x-*,*$1-*,*$2-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase<=3"	{*$x-*,*$1-*,*$2-*,*$3-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase<=4"	{*$x-*,*$1-*,*$2-*,*$3-*,*$4-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase<=5"	{*$x-*,*$1-*,*$2-*,*$3-*,*$4-*,*$5-*}
+QS "Num-AccentedSyl_before_C-Syl_in_C-Phrase<=6"	{*$x-*,*$1-*,*$2-*,*$3-*,*$4-*,*$5-*,*$6-*}
+
+
+
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==x"	{*-x!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==1"	{*-1!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==2"	{*-2!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==3"	{*-3!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==4"	{*-4!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==5"	{*-5!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==6"	{*-6!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase==7"	{*-7!*}
+
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase<=1"	{*-x!*,*-1!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase<=2"	{*-x!*,*-1!*,*-2!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase<=3"	{*-x!*,*-1!*,*-2!*,*-3!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase<=4"	{*-x!*,*-1!*,*-2!*,*-3!*,*-4!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase<=5"	{*-x!*,*-1!*,*-2!*,*-3!*,*-4!*,*-5!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase<=6"	{*-x!*,*-1!*,*-2!*,*-3!*,*-4!*,*-5!*,*-6!*}
+QS "Num-AccentedSyl_after_C-Syl_in_C-Phrase<=7"	{*-x!*,*-1!*,*-2!*,*-3!*,*-4!*,*-5!*,*-6!*,*-7!*}
+
+
+
+QS "Num-Syl_from_prev-StressedSyl==x"	{*!x-*}
+QS "Num-Syl_from_prev-StressedSyl==0"	{*!0-*}
+QS "Num-Syl_from_prev-StressedSyl==1"	{*!1-*}
+QS "Num-Syl_from_prev-StressedSyl==2"	{*!2-*}
+QS "Num-Syl_from_prev-StressedSyl==3"	{*!3-*}
+QS "Num-Syl_from_prev-StressedSyl==4"	{*!4-*}
+QS "Num-Syl_from_prev-StressedSyl==5"	{*!5-*}
+
+QS "Num-Syl_from_prev-StressedSyl<=0"	{*!x-*,*!0-*}
+QS "Num-Syl_from_prev-StressedSyl<=1"	{*!x-*,*!0-*,*!1-*}
+QS "Num-Syl_from_prev-StressedSyl<=2"	{*!x-*,*!0-*,*!1-*,*!2-*}
+QS "Num-Syl_from_prev-StressedSyl<=3"	{*!x-*,*!0-*,*!1-*,*!2-*,*!3-*}
+QS "Num-Syl_from_prev-StressedSyl<=4"	{*!x-*,*!0-*,*!1-*,*!2-*,*!3-*,*!4-*}
+QS "Num-Syl_from_prev-StressedSyl<=5"	{*!x-*,*!0-*,*!1-*,*!2-*,*!3-*,*!4-*,*!5-*}
+
+
+
+QS "Num-Syl_from_next-StressedSyl==x"	{*-x;*}
+QS "Num-Syl_from_next-StressedSyl==0"	{*-0;*}
+QS "Num-Syl_from_next-StressedSyl==1"	{*-1;*}
+QS "Num-Syl_from_next-StressedSyl==2"	{*-2;*}
+QS "Num-Syl_from_next-StressedSyl==3"	{*-3;*}
+QS "Num-Syl_from_next-StressedSyl==4"	{*-4;*}
+QS "Num-Syl_from_next-StressedSyl==5"	{*-5;*}
+
+QS "Num-Syl_from_next-StressedSyl<=0"	{*-x;*,*-0;*}
+QS "Num-Syl_from_next-StressedSyl<=1"	{*-x;*,*-0;*,*-1;*}
+QS "Num-Syl_from_next-StressedSyl<=2"	{*-x;*,*-0;*,*-1;*,*-2;*}
+QS "Num-Syl_from_next-StressedSyl<=3"	{*-x;*,*-0;*,*-1;*,*-2;*,*-3;*}
+QS "Num-Syl_from_next-StressedSyl<=4"	{*-x;*,*-0;*,*-1;*,*-2;*,*-3;*,*-4;*}
+QS "Num-Syl_from_next-StressedSyl<=5"	{*-x;*,*-0;*,*-1;*,*-2;*,*-3;*,*-4;*,*-5;*}
+
+
+
+QS "Num-Syl_from_prev-AccentedSyl==x"	{*;x-*}
+QS "Num-Syl_from_prev-AccentedSyl==0"	{*;0-*}
+QS "Num-Syl_from_prev-AccentedSyl==1"	{*;1-*}
+QS "Num-Syl_from_prev-AccentedSyl==2"	{*;2-*}
+QS "Num-Syl_from_prev-AccentedSyl==3"	{*;3-*}
+QS "Num-Syl_from_prev-AccentedSyl==4"	{*;4-*}
+QS "Num-Syl_from_prev-AccentedSyl==5"	{*;5-*}
+QS "Num-Syl_from_prev-AccentedSyl==6"	{*;6-*}
+QS "Num-Syl_from_prev-AccentedSyl==7"	{*;7-*}
+QS "Num-Syl_from_prev-AccentedSyl==8"	{*;8-*}
+QS "Num-Syl_from_prev-AccentedSyl==9"	{*;9-*}
+QS "Num-Syl_from_prev-AccentedSyl==10"	{*;10-*}
+QS "Num-Syl_from_prev-AccentedSyl==11"	{*;11-*}
+QS "Num-Syl_from_prev-AccentedSyl==12"	{*;12-*}
+QS "Num-Syl_from_prev-AccentedSyl==13"	{*;13-*}
+QS "Num-Syl_from_prev-AccentedSyl==14"	{*;14-*}
+QS "Num-Syl_from_prev-AccentedSyl==15"	{*;15-*}
+QS "Num-Syl_from_prev-AccentedSyl==16"	{*;16-*}
+
+QS "Num-Syl_from_prev-AccentedSyl<=0"	{*;x-*,*;0-*}
+QS "Num-Syl_from_prev-AccentedSyl<=1"	{*;x-*,*;0-*,*;1-*}
+QS "Num-Syl_from_prev-AccentedSyl<=2"	{*;x-*,*;0-*,*;1-*,*;2-*}
+QS "Num-Syl_from_prev-AccentedSyl<=3"	{*;x-*,*;0-*,*;1-*,*;2-*,*;3-*}
+QS "Num-Syl_from_prev-AccentedSyl<=4"	{*;x-*,*;0-*,*;1-*,*;2-*,*;3-*,*;4-*}
+QS "Num-Syl_from_prev-AccentedSyl<=5"	{*;x-*,*;0-*,*;1-*,*;2-*,*;3-*,*;4-*,*;5-*}
+QS "Num-Syl_from_prev-AccentedSyl<=6"	{*;x-*,*;0-*,*;1-*,*;2-*,*;3-*,*;4-*,*;5-*,*;6-*}
+QS "Num-Syl_from_prev-AccentedSyl<=7"	{*;x-*,*;0-*,*;1-*,*;2-*,*;3-*,*;4-*,*;5-*,*;6-*,*;7-*}
+QS "Num-Syl_from_prev-AccentedSyl<=8"	{*;x-*,*;0-*,*;1-*,*;2-*,*;3-*,*;4-*,*;5-*,*;6-*,*;7-*,*;8-*}
+QS "Num-Syl_from_prev-AccentedSyl<=9"	{*;?-*}
+QS "Num-Syl_from_prev-AccentedSyl<=10"	{*;?-*,*;10-*}
+QS "Num-Syl_from_prev-AccentedSyl<=11"	{*;?-*,*;10-*,*;11-*}
+QS "Num-Syl_from_prev-AccentedSyl<=12"	{*;?-*,*;10-*,*;11-*,*;12-*}
+QS "Num-Syl_from_prev-AccentedSyl<=13"	{*;?-*,*;10-*,*;11-*,*;12-*,*;13-*}
+QS "Num-Syl_from_prev-AccentedSyl<=14"	{*;?-*,*;10-*,*;11-*,*;12-*,*;13-*,*;14-*}
+QS "Num-Syl_from_prev-AccentedSyl<=15"	{*;?-*,*;10-*,*;11-*,*;12-*,*;13-*,*;14-*,*;15-*}
+QS "Num-Syl_from_prev-AccentedSyl<=16"	{*;?-*,*;10-*,*;11-*,*;12-*,*;13-*,*;14-*,*;15-*,*;16-*}
+
+
+
+QS "Num-Syl_from_next-AccentedSyl==x"	{*-x|*}
+QS "Num-Syl_from_next-AccentedSyl==0"	{*-0|*}
+QS "Num-Syl_from_next-AccentedSyl==1"	{*-1|*}
+QS "Num-Syl_from_next-AccentedSyl==2"	{*-2|*}
+QS "Num-Syl_from_next-AccentedSyl==3"	{*-3|*}
+QS "Num-Syl_from_next-AccentedSyl==4"	{*-4|*}
+QS "Num-Syl_from_next-AccentedSyl==5"	{*-5|*}
+QS "Num-Syl_from_next-AccentedSyl==6"	{*-6|*}
+QS "Num-Syl_from_next-AccentedSyl==7"	{*-7|*}
+QS "Num-Syl_from_next-AccentedSyl==8"	{*-8|*}
+QS "Num-Syl_from_next-AccentedSyl==9"	{*-9|*}
+QS "Num-Syl_from_next-AccentedSyl==10"	{*-10|*}
+QS "Num-Syl_from_next-AccentedSyl==11"	{*-11|*}
+QS "Num-Syl_from_next-AccentedSyl==12"	{*-12|*}
+QS "Num-Syl_from_next-AccentedSyl==13"	{*-13|*}
+QS "Num-Syl_from_next-AccentedSyl==14"	{*-14|*}
+QS "Num-Syl_from_next-AccentedSyl==15"	{*-15|*}
+QS "Num-Syl_from_next-AccentedSyl==16"	{*-16|*}
+
+QS "Num-Syl_from_next-AccentedSyl<=0"	{*-x|*,*-0|*}
+QS "Num-Syl_from_next-AccentedSyl<=1"	{*-x|*,*-0|*,*-1|*}
+QS "Num-Syl_from_next-AccentedSyl<=2"	{*-x|*,*-0|*,*-1|*,*-2|*}
+QS "Num-Syl_from_next-AccentedSyl<=3"	{*-x|*,*-0|*,*-1|*,*-2|*,*-3|*}
+QS "Num-Syl_from_next-AccentedSyl<=4"	{*-x|*,*-0|*,*-1|*,*-2|*,*-3|*,*-4|*}
+QS "Num-Syl_from_next-AccentedSyl<=5"	{*-x|*,*-0|*,*-1|*,*-2|*,*-3|*,*-4|*,*-5|*}
+QS "Num-Syl_from_next-AccentedSyl<=6"	{*-x|*,*-0|*,*-1|*,*-2|*,*-3|*,*-4|*,*-5|*,*-6|*}
+QS "Num-Syl_from_next-AccentedSyl<=7"	{*-x|*,*-0|*,*-1|*,*-2|*,*-3|*,*-4|*,*-5|*,*-6|*,*-7|*}
+QS "Num-Syl_from_next-AccentedSyl<=8"	{*-x|*,*-0|*,*-1|*,*-2|*,*-3|*,*-4|*,*-5|*,*-6|*,*-7|*,*-8|*}
+QS "Num-Syl_from_next-AccentedSyl<=9"	{*-?|*}
+QS "Num-Syl_from_next-AccentedSyl<=10"	{*-?|*,*-10|*}
+QS "Num-Syl_from_next-AccentedSyl<=11"	{*-?|*,*-10|*,*-11|*}
+QS "Num-Syl_from_next-AccentedSyl<=12"	{*-?|*,*-10|*,*-11|*,*-12|*}
+QS "Num-Syl_from_next-AccentedSyl<=13"	{*-?|*,*-10|*,*-11|*,*-12|*,*-13|*}
+QS "Num-Syl_from_next-AccentedSyl<=14"	{*-?|*,*-10|*,*-11|*,*-12|*,*-13|*,*-14|*}
+QS "Num-Syl_from_next-AccentedSyl<=15"	{*-?|*,*-10|*,*-11|*,*-12|*,*-13|*,*-14|*,*-15|*}
+QS "Num-Syl_from_next-AccentedSyl<=16"	{*-?|*,*-10|*,*-11|*,*-12|*,*-13|*,*-14|*,*-15|*,*-16|*}
+
+
+
+QS "R-Syl_Stress==1"		{*/C:1+*}
+QS "R-Syl_Stress==0"		{*/C:0+*}
+
+
+
+QS "R-Syl_Accent==1"		{*+1+*}
+QS "R-Syl_Accent==0"		{*+0+*}
+
+
+
+QS "R-Syl_Num-Segs==0"	{*+0/D:*}
+QS "R-Syl_Num-Segs==1"	{*+1/D:*}
+QS "R-Syl_Num-Segs==2"	{*+2/D:*}
+QS "R-Syl_Num-Segs==3"	{*+3/D:*}
+QS "R-Syl_Num-Segs==4"	{*+4/D:*}
+QS "R-Syl_Num-Segs==5"	{*+5/D:*}
+QS "R-Syl_Num-Segs==6"	{*+6/D:*}
+QS "R-Syl_Num-Segs==7"	{*+7/D:*}
+
+QS "R-Syl_Num-Segs<=1"	{*+0/D:*,*+1/D:*}
+QS "R-Syl_Num-Segs<=2"	{*+0/D:*,*+1/D:*,*+2/D:*}
+QS "R-Syl_Num-Segs<=3"	{*+0/D:*,*+1/D:*,*+2/D:*,*+3/D:*}
+QS "R-Syl_Num-Segs<=4"	{*+0/D:*,*+1/D:*,*+2/D:*,*+3/D:*,*+4/D:*}
+QS "R-Syl_Num-Segs<=5"	{*+0/D:*,*+1/D:*,*+2/D:*,*+3/D:*,*+4/D:*,*+5/D:*}
+QS "R-Syl_Num-Segs<=6"	{*+0/D:*,*+1/D:*,*+2/D:*,*+3/D:*,*+4/D:*,*+5/D:*,*+6/D:*}
+QS "R-Syl_Num-Segs<=7"	{*+0/D:*,*+1/D:*,*+2/D:*,*+3/D:*,*+4/D:*,*+5/D:*,*+6/D:*,*+7/D:*}
+
+
+
+QS "L-Word_GPOS==0"			{*/D:0_*}
+QS "L-Word_GPOS==aux"		{*/D:aux_*}
+QS "L-Word_GPOS==cc"		{*/D:cc_*}
+QS "L-Word_GPOS==content"	{*/D:content_*}
+QS "L-Word_GPOS==det"		{*/D:det_*}
+QS "L-Word_GPOS==in"		{*/D:in_*}
+QS "L-Word_GPOS==md"		{*/D:md_*}
+QS "L-Word_GPOS==pps"		{*/D:pps_*}
+QS "L-Word_GPOS==punc"		{*/D:punc_*}
+QS "L-Word_GPOS==to"		{*/D:to_*}
+QS "L-Word_GPOS==wp"		{*/D:wp_*}
+
+
+
+QS "L-Word_Num-Syls==0"	{*_0/E:*}
+QS "L-Word_Num-Syls==1"	{*_1/E:*}
+QS "L-Word_Num-Syls==2"	{*_2/E:*}
+QS "L-Word_Num-Syls==3"	{*_3/E:*}
+QS "L-Word_Num-Syls==4"	{*_4/E:*}
+QS "L-Word_Num-Syls==5"	{*_5/E:*}
+QS "L-Word_Num-Syls==6"	{*_6/E:*}
+QS "L-Word_Num-Syls==7"	{*_7/E:*}
+
+QS "L-Word_Num-Syls<=1"	{*_0/E:*,*_1/E:*}
+QS "L-Word_Num-Syls<=2"	{*_0/E:*,*_1/E:*,*_2/E:*}
+QS "L-Word_Num-Syls<=3"	{*_0/E:*,*_1/E:*,*_2/E:*,*_3/E:*}
+QS "L-Word_Num-Syls<=4"	{*_0/E:*,*_1/E:*,*_2/E:*,*_3/E:*,*_4/E:*}
+QS "L-Word_Num-Syls<=5"	{*_0/E:*,*_1/E:*,*_2/E:*,*_3/E:*,*_4/E:*,*_5/E:*}
+QS "L-Word_Num-Syls<=6"	{*_0/E:*,*_1/E:*,*_2/E:*,*_3/E:*,*_4/E:*,*_5/E:*,*_6/E:*}
+QS "L-Word_Num-Syls<=7"	{*_0/E:*,*_1/E:*,*_2/E:*,*_3/E:*,*_4/E:*,*_5/E:*,*_6/E:*,*_7/E:*}
+
+
+
+QS "C-Word_GPOS==x"		{*/E:x+*}
+QS "C-Word_GPOS==aux"		{*/E:aux+*}
+QS "C-Word_GPOS==cc"		{*/E:cc+*}
+QS "C-Word_GPOS==content"	{*/E:content+*}
+QS "C-Word_GPOS==det"		{*/E:det+*}
+QS "C-Word_GPOS==in"		{*/E:in+*}
+QS "C-Word_GPOS==md"		{*/E:md+*}
+QS "C-Word_GPOS==pps"		{*/E:pps+*}
+QS "C-Word_GPOS==punc"		{*/E:punc+*}
+QS "C-Word_GPOS==to"		{*/E:to+*}
+QS "C-Word_GPOS==wp"		{*/E:wp+*}
+
+
+
+QS "C-Word_Num-Syls==x"	{*+x@*}
+QS "C-Word_Num-Syls==1"	{*+1@*}
+QS "C-Word_Num-Syls==2"	{*+2@*}
+QS "C-Word_Num-Syls==3"	{*+3@*}
+QS "C-Word_Num-Syls==4"	{*+4@*}
+QS "C-Word_Num-Syls==5"	{*+5@*}
+QS "C-Word_Num-Syls==6"	{*+6@*}
+QS "C-Word_Num-Syls==7"	{*+7@*}
+
+QS "C-Word_Num-Syls<=1"	{*+x@*,*+1@*}
+QS "C-Word_Num-Syls<=2"	{*+x@*,*+1@*,*+2@*}
+QS "C-Word_Num-Syls<=3"	{*+x@*,*+1@*,*+2@*,*+3@*}
+QS "C-Word_Num-Syls<=4"	{*+x@*,*+1@*,*+2@*,*+3@*,*+4@*}
+QS "C-Word_Num-Syls<=5"	{*+x@*,*+1@*,*+2@*,*+3@*,*+4@*,*+5@*}
+QS "C-Word_Num-Syls<=6"	{*+x@*,*+1@*,*+2@*,*+3@*,*+4@*,*+5@*,*+6@*}
+QS "C-Word_Num-Syls<=7"	{*+x@*,*+1@*,*+2@*,*+3@*,*+4@*,*+5@*,*+6@*,*+7@*}
+
+
+
+QS "Pos_C-Word_in_C-Phrase(Fw)==x"	{*@x+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==1"	{*@1+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==2"	{*@2+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==3"	{*@3+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==4"	{*@4+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==5"	{*@5+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==6"	{*@6+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==7"	{*@7+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==8"	{*@8+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==9"	{*@9+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==10"	{*@10+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==11"	{*@11+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==12"	{*@12+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)==13"	{*@13+*}
+
+QS "Pos_C-Word_in_C-Phrase(Fw)<=1"	{*@x+*,*@1+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=2"	{*@x+*,*@1+*,*@2+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=3"	{*@x+*,*@1+*,*@2+*,*@3+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=4"	{*@x+*,*@1+*,*@2+*,*@3+*,*@4+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=5"	{*@x+*,*@1+*,*@2+*,*@3+*,*@4+*,*@5+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=6"	{*@x+*,*@1+*,*@2+*,*@3+*,*@4+*,*@5+*,*@6+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=7"	{*@x+*,*@1+*,*@2+*,*@3+*,*@4+*,*@5+*,*@6+*,*@7+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=8"	{*@x+*,*@1+*,*@2+*,*@3+*,*@4+*,*@5+*,*@6+*,*@7+*,*@8+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=9"	{*@?+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=10"	{*@?+*,*@10+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=11"	{*@?+*,*@10+*,*@11+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=12"	{*@?+*,*@10+*,*@11+*,*@12+*}
+QS "Pos_C-Word_in_C-Phrase(Fw)<=13"	{*@?+*,*@10+*,*@11+*,*@12+*,*@13+*}
+
+
+
+QS "Pos_C-Word_in_C-Phrase(Bw)==x"	{*+x&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==0"	{*+0&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==1"	{*+1&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==2"	{*+2&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==3"	{*+3&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==4"	{*+4&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==5"	{*+5&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==6"	{*+6&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==7"	{*+7&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==8"	{*+8&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==9"	{*+9&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==10"	{*+10&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==11"	{*+11&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==12"	{*+12&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)==13"	{*+13&*}
+
+QS "Pos_C-Word_in_C-Phrase(Bw)<=1"	{*+x&*,*+0&*,*+1&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=2"	{*+x&*,*+0&*,*+1&*,*+2&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=3"	{*+x&*,*+0&*,*+1&*,*+2&*,*+3&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=4"	{*+x&*,*+0&*,*+1&*,*+2&*,*+3&*,*+4&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=5"	{*+x&*,*+0&*,*+1&*,*+2&*,*+3&*,*+4&*,*+5&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=6"	{*+x&*,*+0&*,*+1&*,*+2&*,*+3&*,*+4&*,*+5&*,*+6&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=7"	{*+x&*,*+0&*,*+1&*,*+2&*,*+3&*,*+4&*,*+5&*,*+6&*,*+7&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=8"	{*+x&*,*+0&*,*+1&*,*+2&*,*+3&*,*+4&*,*+5&*,*+6&*,*+7&*,*+8&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=9"	{*+?&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=10"	{*+?&*,*+10&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=11"	{*+?&*,*+10&*,*+11&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=12"	{*+?&*,*+10&*,*+11&*,*+12&*}
+QS "Pos_C-Word_in_C-Phrase(Bw)<=13"	{*+?&*,*+10&*,*+11&*,*+12&*,*+13&*}
+
+
+
+QS "Num-ContWord_before_C-Word_in_C-Phrase==x"	{*&x+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==1"	{*&1+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==2"	{*&2+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==3"	{*&3+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==4"	{*&4+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==5"	{*&5+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==6"	{*&6+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==7"	{*&7+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==8"	{*&8+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase==9"	{*&9+*}
+
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=1"	{*&x+*,*&1+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=2"	{*&x+*,*&1+*,*&2+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=3"	{*&x+*,*&1+*,*&2+*,*&3+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=4"	{*&x+*,*&1+*,*&2+*,*&3+*,*&4+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=5"	{*&x+*,*&1+*,*&2+*,*&3+*,*&4+*,*&5+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=6"	{*&x+*,*&1+*,*&2+*,*&3+*,*&4+*,*&5+*,*&6+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=7"	{*&x+*,*&1+*,*&2+*,*&3+*,*&4+*,*&5+*,*&6+*,*&7+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=8"	{*&x+*,*&1+*,*&2+*,*&3+*,*&4+*,*&5+*,*&6+*,*&7+*,*&8+*}
+QS "Num-ContWord_before_C-Word_in_C-Phrase<=9"	{*&?+*}
+
+
+
+QS "Num-ContWord_after_C-Word_in_C-Phrase==x"	{*+x#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==0"	{*+0#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==1"	{*+1#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==2"	{*+2#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==3"	{*+3#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==4"	{*+4#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==5"	{*+5#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==6"	{*+6#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==7"	{*+7#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase==8"	{*+8#*}
+
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=0"	{*+x#*,*+0#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=1"	{*+x#*,*+0#*,*+1#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=2"	{*+x#*,*+0#*,*+1#*,*+2#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=3"	{*+x#*,*+0#*,*+1#*,*+2#*,*+3#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=4"	{*+x#*,*+0#*,*+1#*,*+2#*,*+3#*,*+4#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=5"	{*+x#*,*+0#*,*+1#*,*+2#*,*+3#*,*+4#*,*+5#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=6"	{*+x#*,*+0#*,*+1#*,*+2#*,*+3#*,*+4#*,*+5#*,*+6#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=7"	{*+x#*,*+0#*,*+1#*,*+2#*,*+3#*,*+4#*,*+5#*,*+6#*,*+7#*}
+QS "Num-ContWord_after_C-Word_in_C-Phrase<=8"	{*+x#*,*+0#*,*+1#*,*+2#*,*+3#*,*+4#*,*+5#*,*+6#*,*+7#*,*+8#*}
+
+
+
+QS "Num-Words_from_prev-ContWord==x"	{*#x+*}
+QS "Num-Words_from_prev-ContWord==0"	{*#0+*}
+QS "Num-Words_from_prev-ContWord==1"	{*#1+*}
+QS "Num-Words_from_prev-ContWord==2"	{*#2+*}
+QS "Num-Words_from_prev-ContWord==3"	{*#3+*}
+QS "Num-Words_from_prev-ContWord==4"	{*#4+*}
+QS "Num-Words_from_prev-ContWord==5"	{*#5+*}
+
+QS "Num-Words_from_prev-ContWord<=0"	{*#x+*,*#0+*}
+QS "Num-Words_from_prev-ContWord<=1"	{*#x+*,*#0+*,*#1+*}
+QS "Num-Words_from_prev-ContWord<=2"	{*#x+*,*#0+*,*#1+*,*#2+*}
+QS "Num-Words_from_prev-ContWord<=3"	{*#x+*,*#0+*,*#1+*,*#2+*,*#3+*}
+QS "Num-Words_from_prev-ContWord<=4"	{*#x+*,*#0+*,*#1+*,*#2+*,*#3+*,*#4+*}
+QS "Num-Words_from_prev-ContWord<=5"	{*#x+*,*#0+*,*#1+*,*#2+*,*#3+*,*#4+*,*#5+*}
+
+
+
+QS "Num-Words_from_next-ContWord==x"	{*+x/F:*}
+QS "Num-Words_from_next-ContWord==0"	{*+0/F:*}
+QS "Num-Words_from_next-ContWord==1"	{*+1/F:*}
+QS "Num-Words_from_next-ContWord==2"	{*+2/F:*}
+QS "Num-Words_from_next-ContWord==3"	{*+3/F:*}
+QS "Num-Words_from_next-ContWord==4"	{*+4/F:*}
+QS "Num-Words_from_next-ContWord==5"	{*+5/F:*}
+
+QS "Num-Words_from_next-ContWord<=0"	{*+x/F:*,*+0/F:*}
+QS "Num-Words_from_next-ContWord<=1"	{*+x/F:*,*+0/F:*,*+1/F:*}
+QS "Num-Words_from_next-ContWord<=2"	{*+x/F:*,*+0/F:*,*+1/F:*,*+2/F:*}
+QS "Num-Words_from_next-ContWord<=3"	{*+x/F:*,*+0/F:*,*+1/F:*,*+2/F:*,*+3/F:*}
+QS "Num-Words_from_next-ContWord<=4"	{*+x/F:*,*+0/F:*,*+1/F:*,*+2/F:*,*+3/F:*,*+4/F:*}
+QS "Num-Words_from_next-ContWord<=5"	{*+x/F:*,*+0/F:*,*+1/F:*,*+2/F:*,*+3/F:*,*+4/F:*,*+5/F:*}
+
+
+
+QS "R-Word_GPOS==0"			{*/F:0_*}
+QS "R-Word_GPOS==aux"		{*/F:aux_*}
+QS "R-Word_GPOS==cc"		{*/F:cc_*}
+QS "R-Word_GPOS==content"	{*/F:content_*}
+QS "R-Word_GPOS==det"		{*/F:det_*}
+QS "R-Word_GPOS==in"		{*/F:in_*}
+QS "R-Word_GPOS==md"		{*/F:md_*}
+QS "R-Word_GPOS==pps"		{*/F:pps_*}
+QS "R-Word_GPOS==punc"		{*/F:punc_*}
+QS "R-Word_GPOS==to"		{*/F:to_*}
+QS "R-Word_GPOS==wp"		{*/F:wp_*}
+
+
+
+QS "R-Word_Num-Syls==0"	{*_0/G:*}
+QS "R-Word_Num-Syls==1"	{*_1/G:*}
+QS "R-Word_Num-Syls==2"	{*_2/G:*}
+QS "R-Word_Num-Syls==3"	{*_3/G:*}
+QS "R-Word_Num-Syls==4"	{*_4/G:*}
+QS "R-Word_Num-Syls==5"	{*_5/G:*}
+QS "R-Word_Num-Syls==6"	{*_6/G:*}
+QS "R-Word_Num-Syls==7"	{*_7/G:*}
+
+QS "R-Word_Num-Syls<=1"	{*_0/G:*,*_1/G:*}
+QS "R-Word_Num-Syls<=2"	{*_0/G:*,*_1/G:*,*_2/G:*}
+QS "R-Word_Num-Syls<=3"	{*_0/G:*,*_1/G:*,*_2/G:*,*_3/G:*}
+QS "R-Word_Num-Syls<=4"	{*_0/G:*,*_1/G:*,*_2/G:*,*_3/G:*,*_4/G:*}
+QS "R-Word_Num-Syls<=5"	{*_0/G:*,*_1/G:*,*_2/G:*,*_3/G:*,*_4/G:*,*_5/G:*}
+QS "R-Word_Num-Syls<=6"	{*_0/G:*,*_1/G:*,*_2/G:*,*_3/G:*,*_4/G:*,*_5/G:*,*_6/G:*}
+QS "R-Word_Num-Syls<=7"	{*_0/G:*,*_1/G:*,*_2/G:*,*_3/G:*,*_4/G:*,*_5/G:*,*_6/G:*,*_7/G:*}
+
+
+
+QS "L-Phrase_Num-Syls==0"	{*/G:0_*}
+QS "L-Phrase_Num-Syls==1"	{*/G:1_*}
+QS "L-Phrase_Num-Syls==2"	{*/G:2_*}
+QS "L-Phrase_Num-Syls==3"	{*/G:3_*}
+QS "L-Phrase_Num-Syls==4"	{*/G:4_*}
+QS "L-Phrase_Num-Syls==5"	{*/G:5_*}
+QS "L-Phrase_Num-Syls==6"	{*/G:6_*}
+QS "L-Phrase_Num-Syls==7"	{*/G:7_*}
+QS "L-Phrase_Num-Syls==8"	{*/G:8_*}
+QS "L-Phrase_Num-Syls==9"	{*/G:9_*}
+QS "L-Phrase_Num-Syls==10"	{*/G:10_*}
+QS "L-Phrase_Num-Syls==11"	{*/G:11_*}
+QS "L-Phrase_Num-Syls==12"	{*/G:12_*}
+QS "L-Phrase_Num-Syls==13"	{*/G:13_*}
+QS "L-Phrase_Num-Syls==14"	{*/G:14_*}
+QS "L-Phrase_Num-Syls==15"	{*/G:15_*}
+QS "L-Phrase_Num-Syls==16"	{*/G:16_*}
+QS "L-Phrase_Num-Syls==17"	{*/G:17_*}
+QS "L-Phrase_Num-Syls==18"	{*/G:18_*}
+QS "L-Phrase_Num-Syls==19"	{*/G:19_*}
+QS "L-Phrase_Num-Syls==20"	{*/G:20_*}
+
+QS "L-Phrase_Num-Syls<=1"	{*/G:0_*,*/G:1_*}
+QS "L-Phrase_Num-Syls<=2"	{*/G:0_*,*/G:1_*,*/G:2_*}
+QS "L-Phrase_Num-Syls<=3"	{*/G:0_*,*/G:1_*,*/G:2_*,*/G:3_*}
+QS "L-Phrase_Num-Syls<=4"	{*/G:0_*,*/G:1_*,*/G:2_*,*/G:3_*,*/G:4_*}
+QS "L-Phrase_Num-Syls<=5"	{*/G:0_*,*/G:1_*,*/G:2_*,*/G:3_*,*/G:4_*,*/G:5_*}
+QS "L-Phrase_Num-Syls<=6"	{*/G:0_*,*/G:1_*,*/G:2_*,*/G:3_*,*/G:4_*,*/G:5_*,*/G:6_*}
+QS "L-Phrase_Num-Syls<=7"	{*/G:0_*,*/G:1_*,*/G:2_*,*/G:3_*,*/G:4_*,*/G:5_*,*/G:6_*,*/G:7_*}
+QS "L-Phrase_Num-Syls<=8"	{*/G:0_*,*/G:1_*,*/G:2_*,*/G:3_*,*/G:4_*,*/G:5_*,*/G:6_*,*/G:7_*,*/G:8_*}
+QS "L-Phrase_Num-Syls<=9"	{*/G:?_*}
+QS "L-Phrase_Num-Syls<=10"	{*/G:?_*,*/G:10_*}
+QS "L-Phrase_Num-Syls<=11"	{*/G:?_*,*/G:10_*,*/G:11_*}
+QS "L-Phrase_Num-Syls<=12"	{*/G:?_*,*/G:10_*,*/G:11_*,*/G:12_*}
+QS "L-Phrase_Num-Syls<=13"	{*/G:?_*,*/G:10_*,*/G:11_*,*/G:12_*,*/G:13_*}
+QS "L-Phrase_Num-Syls<=14"	{*/G:?_*,*/G:10_*,*/G:11_*,*/G:12_*,*/G:13_*,*/G:14_*}
+QS "L-Phrase_Num-Syls<=15"	{*/G:?_*,*/G:10_*,*/G:11_*,*/G:12_*,*/G:13_*,*/G:14_*,*/G:15_*}
+QS "L-Phrase_Num-Syls<=16"	{*/G:?_*,*/G:10_*,*/G:11_*,*/G:12_*,*/G:13_*,*/G:14_*,*/G:15_*,*/G:16_*}
+QS "L-Phrase_Num-Syls<=17"	{*/G:?_*,*/G:10_*,*/G:11_*,*/G:12_*,*/G:13_*,*/G:14_*,*/G:15_*,*/G:16_*,*/G:17_*}
+QS "L-Phrase_Num-Syls<=18"	{*/G:?_*,*/G:10_*,*/G:11_*,*/G:12_*,*/G:13_*,*/G:14_*,*/G:15_*,*/G:16_*,*/G:17_*,*/G:18_*}
+QS "L-Phrase_Num-Syls<=19"	{*/G:?_*,*/G:1?_*}
+QS "L-Phrase_Num-Syls<=20"	{*/G:?_*,*/G:1?_*,*/G:20_*}
+
+
+
+QS "L-Phrase_Num-Words==0"	{*_0/H:*}
+QS "L-Phrase_Num-Words==1"	{*_1/H:*}
+QS "L-Phrase_Num-Words==2"	{*_2/H:*}
+QS "L-Phrase_Num-Words==3"	{*_3/H:*}
+QS "L-Phrase_Num-Words==4"	{*_4/H:*}
+QS "L-Phrase_Num-Words==5"	{*_5/H:*}
+QS "L-Phrase_Num-Words==6"	{*_6/H:*}
+QS "L-Phrase_Num-Words==7"	{*_7/H:*}
+QS "L-Phrase_Num-Words==8"	{*_8/H:*}
+QS "L-Phrase_Num-Words==9"	{*_9/H:*}
+QS "L-Phrase_Num-Words==10"	{*_10/H:*}
+QS "L-Phrase_Num-Words==11"	{*_11/H:*}
+QS "L-Phrase_Num-Words==12"	{*_12/H:*}
+QS "L-Phrase_Num-Words==13"	{*_13/H:*}
+
+QS "L-Phrase_Num-Words<=1"	{*_0/H:*,*_1/H:*}
+QS "L-Phrase_Num-Words<=2"	{*_0/H:*,*_1/H:*,*_2/H:*}
+QS "L-Phrase_Num-Words<=3"	{*_0/H:*,*_1/H:*,*_2/H:*,*_3/H:*}
+QS "L-Phrase_Num-Words<=4"	{*_0/H:*,*_1/H:*,*_2/H:*,*_3/H:*,*_4/H:*}
+QS "L-Phrase_Num-Words<=5"	{*_0/H:*,*_1/H:*,*_2/H:*,*_3/H:*,*_4/H:*,*_5/H:*}
+QS "L-Phrase_Num-Words<=6"	{*_0/H:*,*_1/H:*,*_2/H:*,*_3/H:*,*_4/H:*,*_5/H:*,*_6/H:*}
+QS "L-Phrase_Num-Words<=7"	{*_0/H:*,*_1/H:*,*_2/H:*,*_3/H:*,*_4/H:*,*_5/H:*,*_6/H:*,*_7/H:*}
+QS "L-Phrase_Num-Words<=8"	{*_0/H:*,*_1/H:*,*_2/H:*,*_3/H:*,*_4/H:*,*_5/H:*,*_6/H:*,*_7/H:*,*_8/H:*}
+QS "L-Phrase_Num-Words<=9"	{*_?/H:*}
+QS "L-Phrase_Num-Words<=10"	{*_?/H:*,*_10/H:*}
+QS "L-Phrase_Num-Words<=11"	{*_?/H:*,*_10/H:*,*_11/H:*}
+QS "L-Phrase_Num-Words<=12"	{*_?/H:*,*_10/H:*,*_11/H:*,*_12/H:*}
+QS "L-Phrase_Num-Words<=13"	{*_?/H:*,*_10/H:*,*_11/H:*,*_12/H:*,*_13/H:*}
+
+
+
+QS "C-Phrase_Num-Syls==x"	{*/H:x=*}
+QS "C-Phrase_Num-Syls==0"	{*/H:0=*}
+QS "C-Phrase_Num-Syls==1"	{*/H:1=*}
+QS "C-Phrase_Num-Syls==2"	{*/H:2=*}
+QS "C-Phrase_Num-Syls==3"	{*/H:3=*}
+QS "C-Phrase_Num-Syls==4"	{*/H:4=*}
+QS "C-Phrase_Num-Syls==5"	{*/H:5=*}
+QS "C-Phrase_Num-Syls==6"	{*/H:6=*}
+QS "C-Phrase_Num-Syls==7"	{*/H:7=*}
+QS "C-Phrase_Num-Syls==8"	{*/H:8=*}
+QS "C-Phrase_Num-Syls==9"	{*/H:9=*}
+QS "C-Phrase_Num-Syls==10"	{*/H:10=*}
+QS "C-Phrase_Num-Syls==11"	{*/H:11=*}
+QS "C-Phrase_Num-Syls==12"	{*/H:12=*}
+QS "C-Phrase_Num-Syls==13"	{*/H:13=*}
+QS "C-Phrase_Num-Syls==14"	{*/H:14=*}
+QS "C-Phrase_Num-Syls==15"	{*/H:15=*}
+QS "C-Phrase_Num-Syls==16"	{*/H:16=*}
+QS "C-Phrase_Num-Syls==17"	{*/H:17=*}
+QS "C-Phrase_Num-Syls==18"	{*/H:18=*}
+QS "C-Phrase_Num-Syls==19"	{*/H:19=*}
+QS "C-Phrase_Num-Syls==20"	{*/H:20=*}
+
+QS "C-Phrase_Num-Syls<=0"	{*/H:x=*,*/H:0=*}
+QS "C-Phrase_Num-Syls<=1"	{*/H:x=*,*/H:0=*,*/H:1=*}
+QS "C-Phrase_Num-Syls<=2"	{*/H:x=*,*/H:0=*,*/H:1=*,*/H:2=*}
+QS "C-Phrase_Num-Syls<=3"	{*/H:x=*,*/H:0=*,*/H:1=*,*/H:2=*,*/H:3=*}
+QS "C-Phrase_Num-Syls<=4"	{*/H:x=*,*/H:0=*,*/H:1=*,*/H:2=*,*/H:3=*,*/H:4=*}
+QS "C-Phrase_Num-Syls<=5"	{*/H:x=*,*/H:0=*,*/H:1=*,*/H:2=*,*/H:3=*,*/H:4=*,*/H:5=*}
+QS "C-Phrase_Num-Syls<=6"	{*/H:x=*,*/H:0=*,*/H:1=*,*/H:2=*,*/H:3=*,*/H:4=*,*/H:5=*,*/H:6=*}
+QS "C-Phrase_Num-Syls<=7"	{*/H:x=*,*/H:0=*,*/H:1=*,*/H:2=*,*/H:3=*,*/H:4=*,*/H:5=*,*/H:6=*,*/H:7=*}
+QS "C-Phrase_Num-Syls<=8"	{*/H:x=*,*/H:0=*,*/H:1=*,*/H:2=*,*/H:3=*,*/H:4=*,*/H:5=*,*/H:6=*,*/H:7=*,*/H:8=*}
+QS "C-Phrase_Num-Syls<=9"	{*/H:?=*}
+QS "C-Phrase_Num-Syls<=10"	{*/H:?=*,*/H:10=*}
+QS "C-Phrase_Num-Syls<=11"	{*/H:?=*,*/H:10=*,*/H:11=*}
+QS "C-Phrase_Num-Syls<=12"	{*/H:?=*,*/H:10=*,*/H:11=*,*/H:12=*}
+QS "C-Phrase_Num-Syls<=13"	{*/H:?=*,*/H:10=*,*/H:11=*,*/H:12=*,*/H:13=*}
+QS "C-Phrase_Num-Syls<=14"	{*/H:?=*,*/H:10=*,*/H:11=*,*/H:12=*,*/H:13=*,*/H:14=*}
+QS "C-Phrase_Num-Syls<=15"	{*/H:?=*,*/H:10=*,*/H:11=*,*/H:12=*,*/H:13=*,*/H:14=*,*/H:15=*}
+QS "C-Phrase_Num-Syls<=16"	{*/H:?=*,*/H:10=*,*/H:11=*,*/H:12=*,*/H:13=*,*/H:14=*,*/H:15=*,*/H:16=*}
+QS "C-Phrase_Num-Syls<=17"	{*/H:?=*,*/H:10=*,*/H:11=*,*/H:12=*,*/H:13=*,*/H:14=*,*/H:15=*,*/H:16=*,*/H:17=*}
+QS "C-Phrase_Num-Syls<=18"	{*/H:?=*,*/H:10=*,*/H:11=*,*/H:12=*,*/H:13=*,*/H:14=*,*/H:15=*,*/H:16=*,*/H:17=*,*/H:18=*}
+QS "C-Phrase_Num-Syls<=19"	{*/H:?=*,*/H:1?=*}
+QS "C-Phrase_Num-Syls<=20"	{*/H:?=*,*/H:1?=*,*/H:20=*}
+
+
+
+QS "C-Phrase_Num-Words==x"	{*=x@*}
+QS "C-Phrase_Num-Words==0"	{*=0@*}
+QS "C-Phrase_Num-Words==1"	{*=1@*}
+QS "C-Phrase_Num-Words==2"	{*=2@*}
+QS "C-Phrase_Num-Words==3"	{*=3@*}
+QS "C-Phrase_Num-Words==4"	{*=4@*}
+QS "C-Phrase_Num-Words==5"	{*=5@*}
+QS "C-Phrase_Num-Words==6"	{*=6@*}
+QS "C-Phrase_Num-Words==7"	{*=7@*}
+QS "C-Phrase_Num-Words==8"	{*=8@*}
+QS "C-Phrase_Num-Words==9"	{*=9@*}
+QS "C-Phrase_Num-Words==10"	{*=10@*}
+QS "C-Phrase_Num-Words==11"	{*=11@*}
+QS "C-Phrase_Num-Words==12"	{*=12@*}
+QS "C-Phrase_Num-Words==13"	{*=13@*}
+
+QS "C-Phrase_Num-Words<=0"	{*=x@*,*=0@*}
+QS "C-Phrase_Num-Words<=1"	{*=x@*,*=0@*,*=1@*}
+QS "C-Phrase_Num-Words<=2"	{*=x@*,*=0@*,*=1@*,*=2@*}
+QS "C-Phrase_Num-Words<=3"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*}
+QS "C-Phrase_Num-Words<=4"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*}
+QS "C-Phrase_Num-Words<=5"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*}
+QS "C-Phrase_Num-Words<=6"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*}
+QS "C-Phrase_Num-Words<=7"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*,*=7@*}
+QS "C-Phrase_Num-Words<=8"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*,*=7@*,*=8@*}
+QS "C-Phrase_Num-Words<=9"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*,*=7@*,*=8@*,*=9@*}
+QS "C-Phrase_Num-Words<=10"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*,*=7@*,*=8@*,*=9@*,*=10@*}
+QS "C-Phrase_Num-Words<=11"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*,*=7@*,*=8@*,*=9@*,*=10@*,*=11@*}
+QS "C-Phrase_Num-Words<=12"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*,*=7@*,*=8@*,*=9@*,*=10@*,*=11@*,*=12@*}
+QS "C-Phrase_Num-Words<=13"	{*=x@*,*=0@*,*=1@*,*=2@*,*=3@*,*=4@*,*=5@*,*=6@*,*=7@*,*=8@*,*=9@*,*=10@*,*=11@*,*=12@*,*=13@*}
+
+
+
+QS "Pos_C-Phrase_in_Utterance(Fw)==1"	{*@1=*}
+QS "Pos_C-Phrase_in_Utterance(Fw)==2"	{*@2=*}
+QS "Pos_C-Phrase_in_Utterance(Fw)==3"	{*@3=*}
+QS "Pos_C-Phrase_in_Utterance(Fw)==4"	{*@4=*}
+
+QS "Pos_C-Phrase_in_Utterance(Fw)<=2"	{*@1=*,*@2=*}
+QS "Pos_C-Phrase_in_Utterance(Fw)<=3"	{*@1=*,*@2=*,*@3=*}
+QS "Pos_C-Phrase_in_Utterance(Fw)<=4"	{*@1=*,*@2=*,*@3=*,*@4=*}
+
+
+
+QS "Pos_C-Phrase_in_Utterance(Bw)==1"	{*=1|*}
+QS "Pos_C-Phrase_in_Utterance(Bw)==2"	{*=2|*}
+QS "Pos_C-Phrase_in_Utterance(Bw)==3"	{*=3|*}
+QS "Pos_C-Phrase_in_Utterance(Bw)==4"	{*=4|*}
+
+QS "Pos_C-Phrase_in_Utterance(Bw)<=2"	{*=1|*,*=2|*}
+QS "Pos_C-Phrase_in_Utterance(Bw)<=3"	{*=1|*,*=2|*,*=3|*}
+QS "Pos_C-Phrase_in_Utterance(Bw)<=4"	{*=1|*,*=2|*,*=3|*,*=4|*}
+
+
+
+QS "C-Phrase_TOBI_End-tone-LL"      {*|L-L%/I:*}
+QS "C-Phrase_TOBI_End-tone-LH"		{*|L-H%/I:*}
+QS "C-Phrase_TOBI_End-tone-HH"		{*|H-H%/I:*}
+QS "C-Phrase_TOBI_End-tone-NONE"	{*|NONE/I:*}
+QS "C-Phrase_TOBI_End-tone-0"		{*|0/I:*}
+
+
+
+QS "R-Phrase_Num-Syls==0"	{*/I:0=*}
+QS "R-Phrase_Num-Syls==1"	{*/I:1=*}
+QS "R-Phrase_Num-Syls==2"	{*/I:2=*}
+QS "R-Phrase_Num-Syls==3"	{*/I:3=*}
+QS "R-Phrase_Num-Syls==4"	{*/I:4=*}
+QS "R-Phrase_Num-Syls==5"	{*/I:5=*}
+QS "R-Phrase_Num-Syls==6"	{*/I:6=*}
+QS "R-Phrase_Num-Syls==7"	{*/I:7=*}
+QS "R-Phrase_Num-Syls==8"	{*/I:8=*}
+QS "R-Phrase_Num-Syls==9"	{*/I:9=*}
+QS "R-Phrase_Num-Syls==10"	{*/I:10=*}
+QS "R-Phrase_Num-Syls==11"	{*/I:11=*}
+QS "R-Phrase_Num-Syls==12"	{*/I:12=*}
+QS "R-Phrase_Num-Syls==13"	{*/I:13=*}
+QS "R-Phrase_Num-Syls==14"	{*/I:14=*}
+QS "R-Phrase_Num-Syls==15"	{*/I:15=*}
+QS "R-Phrase_Num-Syls==16"	{*/I:16=*}
+QS "R-Phrase_Num-Syls==17"	{*/I:17=*}
+QS "R-Phrase_Num-Syls==18"	{*/I:18=*}
+QS "R-Phrase_Num-Syls==19"	{*/I:19=*}
+QS "R-Phrase_Num-Syls==20"	{*/I:20=*}
+
+QS "R-Phrase_Num-Syls<=1"	{*/I:0=*,*/I:1=*}
+QS "R-Phrase_Num-Syls<=2"	{*/I:0=*,*/I:1=*,*/I:2=*}
+QS "R-Phrase_Num-Syls<=3"	{*/I:0=*,*/I:1=*,*/I:2=*,*/I:3=*}
+QS "R-Phrase_Num-Syls<=4"	{*/I:0=*,*/I:1=*,*/I:2=*,*/I:3=*,*/I:4=*}
+QS "R-Phrase_Num-Syls<=5"	{*/I:0=*,*/I:1=*,*/I:2=*,*/I:3=*,*/I:4=*,*/I:5=*}
+QS "R-Phrase_Num-Syls<=6"	{*/I:0=*,*/I:1=*,*/I:2=*,*/I:3=*,*/I:4=*,*/I:5=*,*/I:6=*}
+QS "R-Phrase_Num-Syls<=7"	{*/I:0=*,*/I:1=*,*/I:2=*,*/I:3=*,*/I:4=*,*/I:5=*,*/I:6=*,*/I:7=*}
+QS "R-Phrase_Num-Syls<=8"	{*/I:0=*,*/I:1=*,*/I:2=*,*/I:3=*,*/I:4=*,*/I:5=*,*/I:6=*,*/I:7=*,*/I:8=*}
+QS "R-Phrase_Num-Syls<=9"	{*/I:?=*}
+QS "R-Phrase_Num-Syls<=10"	{*/I:?=*,*/I:10=*}
+QS "R-Phrase_Num-Syls<=11"	{*/I:?=*,*/I:10=*,*/I:11=*}
+QS "R-Phrase_Num-Syls<=12"	{*/I:?=*,*/I:10=*,*/I:11=*,*/I:12=*}
+QS "R-Phrase_Num-Syls<=13"	{*/I:?=*,*/I:10=*,*/I:11=*,*/I:12=*,*/I:13=*}
+QS "R-Phrase_Num-Syls<=14"	{*/I:?=*,*/I:10=*,*/I:11=*,*/I:12=*,*/I:13=*,*/I:14=*}
+QS "R-Phrase_Num-Syls<=15"	{*/I:?=*,*/I:10=*,*/I:11=*,*/I:12=*,*/I:13=*,*/I:14=*,*/I:15=*}
+QS "R-Phrase_Num-Syls<=16"	{*/I:?=*,*/I:10=*,*/I:11=*,*/I:12=*,*/I:13=*,*/I:14=*,*/I:15=*,*/I:16=*}
+QS "R-Phrase_Num-Syls<=17"	{*/I:?=*,*/I:10=*,*/I:11=*,*/I:12=*,*/I:13=*,*/I:14=*,*/I:15=*,*/I:16=*,*/I:17=*}
+QS "R-Phrase_Num-Syls<=18"	{*/I:?=*,*/I:10=*,*/I:11=*,*/I:12=*,*/I:13=*,*/I:14=*,*/I:15=*,*/I:16=*,*/I:17=*,*/I:18=*}
+QS "R-Phrase_Num-Syls<=19"	{*/I:?=*,*/I:1?=*}
+QS "R-Phrase_Num-Syls<=20"	{*/I:?=*,*/I:1?=*,*/I:20=*}
+
+
+
+QS "R-Phrase_Num-Words==0"	{*=0/J:*}
+QS "R-Phrase_Num-Words==1"	{*=1/J:*}
+QS "R-Phrase_Num-Words==2"	{*=2/J:*}
+QS "R-Phrase_Num-Words==3"	{*=3/J:*}
+QS "R-Phrase_Num-Words==4"	{*=4/J:*}
+QS "R-Phrase_Num-Words==5"	{*=5/J:*}
+QS "R-Phrase_Num-Words==6"	{*=6/J:*}
+QS "R-Phrase_Num-Words==7"	{*=7/J:*}
+QS "R-Phrase_Num-Words==8"	{*=8/J:*}
+QS "R-Phrase_Num-Words==9"	{*=9/J:*}
+QS "R-Phrase_Num-Words==10"	{*=10/J:*}
+QS "R-Phrase_Num-Words==11"	{*=11/J:*}
+QS "R-Phrase_Num-Words==12"	{*=12/J:*}
+QS "R-Phrase_Num-Words==13"	{*=13/J:*}
+QS "R-Phrase_Num-Words==14"	{*=14/J:*}
+QS "R-Phrase_Num-Words==15"	{*=15/J:*}
+
+QS "R-Phrase_Num-Words<=1"	{*=0/J:*,*=1/J:*}
+QS "R-Phrase_Num-Words<=2"	{*=0/J:*,*=1/J:*,*=2/J:*}
+QS "R-Phrase_Num-Words<=3"	{*=0/J:*,*=1/J:*,*=2/J:*,*=3/J:*}
+QS "R-Phrase_Num-Words<=4"	{*=0/J:*,*=1/J:*,*=2/J:*,*=3/J:*,*=4/J:*}
+QS "R-Phrase_Num-Words<=5"	{*=0/J:*,*=1/J:*,*=2/J:*,*=3/J:*,*=4/J:*,*=5/J:*}
+QS "R-Phrase_Num-Words<=6"	{*=0/J:*,*=1/J:*,*=2/J:*,*=3/J:*,*=4/J:*,*=5/J:*,*=6/J:*}
+QS "R-Phrase_Num-Words<=7"	{*=0/J:*,*=1/J:*,*=2/J:*,*=3/J:*,*=4/J:*,*=5/J:*,*=6/J:*,*=7/J:*}
+QS "R-Phrase_Num-Words<=8"	{*=0/J:*,*=1/J:*,*=2/J:*,*=3/J:*,*=4/J:*,*=5/J:*,*=6/J:*,*=7/J:*,*=8/J:*}
+QS "R-Phrase_Num-Words<=9"	{*=?/J:*}
+QS "R-Phrase_Num-Words<=10"	{*=?/J:*,*=10/J:*}
+QS "R-Phrase_Num-Words<=11"	{*=?/J:*,*=10/J:*,*=11/J:*}
+QS "R-Phrase_Num-Words<=12"	{*=?/J:*,*=10/J:*,*=11/J:*,*=12/J:*}
+QS "R-Phrase_Num-Words<=13"	{*=?/J:*,*=10/J:*,*=11/J:*,*=12/J:*,*=13/J:*}
+QS "R-Phrase_Num-Words<=14"	{*=?/J:*,*=10/J:*,*=11/J:*,*=12/J:*,*=13/J:*,*=14/J:*}
+QS "R-Phrase_Num-Words<=15"	{*=?/J:*,*=10/J:*,*=11/J:*,*=12/J:*,*=13/J:*,*=14/J:*,*=15/J:*}
